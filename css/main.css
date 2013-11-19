@@ -1,0 +1,124 @@
+/* Structural */
+body {
+	margin: 0;
+	font-family: "Rosario", sans-serif;
+}
+
+.content {
+	margin: 0 auto;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+/* FontAwesome include */
+@font-face {
+  font-family: 'FontAwesome';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('../font/fontawesome-webfont.eot?v=4.0.3');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),
+    url('../font/fontawesome-webfont.woff?v=4.0.3') format('woff'),
+    url('../font/fontawesome-webfont.ttf?v=4.0.3') format('truetype');
+}
+
+
+/* header */
+.header {
+	width: 100%;
+	background-color: #3c3c3c;
+	color: #ccc;
+	height: 2.5em;
+}
+
+.header div {
+	display: inline-block;
+	background-color: #555;
+	padding: 0 0.5em;
+	margin-left: 1em;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+
+.header div:hover {
+	cursor: pointer;
+}
+
+.header div:active {
+	background-color: #f18d05;
+	color: #fff;
+}
+
+
+/* table stuff */
+tbody tr:nth-child(odd) {
+	background-color: #f7f7f7;
+}
+
+td.label-score {
+	font-size: 2em;
+	padding: 0.3em 1em;
+}
+
+td.btn-add {
+	font-family: "FontAwesome";
+	font-size: 2.25em;
+	padding: 0.4em 0.5em;
+	color: #666;
+	-webkit-font-smoothing: antialiased;
+}
+
+td.btn-add:hover {
+	cursor: pointer;
+}
+
+td.btn-add:active {
+	background-color: #f18d05;
+	color: #fff;
+}
+
+td.label-marks {
+	font-family: "FontAwesome";
+	font-size: 2em;
+	width: 4em;
+	color: green;
+	-webkit-font-smoothing: antialiased;
+}
+
+.btn-done {
+	padding: 0.5em 0.25em;
+	border: 1px solid #ccc;
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+	border-radius: 3px;
+}
+
+.btn-done:hover {
+	cursor: pointer;
+}
+
+.btn-done:active {
+	background: linear-gradient(to bottom, #f9c667 0%,#f18d05 100%);
+	border: 1px solid #b56a04;
+}
+
+
+/* scoring section */
+.score-box {
+	padding: 0 1.4em 0.5em 1.4em;
+}
+
+.score-box-points {
+	font-size: 4.25em;
+}
+
+.score-box-mpr {
+	color: #999;
+}
+
+.score-box-name {
+	font-size: 1.2em;
+}
